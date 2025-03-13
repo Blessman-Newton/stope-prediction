@@ -11,9 +11,9 @@ import google.generativeai as genai
 load_dotenv()
 
 # Load the trained model, scaler, and label encoder
-model = joblib.load('../stacked_model.pkl')
-scaler = joblib.load('../scaler.pkl')
-label_encoder = joblib.load('../label_encoder.pkl')
+model = joblib.load('stacked_model.pkl')
+scaler = joblib.load('scaler.pkl')
+label_encoder = joblib.load('label_encoder.pkl')
 
 # Function to make predictions
 def predict_stability(hr, n):
