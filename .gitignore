@@ -1,0 +1,12 @@
+node_modules
+tsconfig.json
+tsconfig.
+.env
+
+
+git init
+git add .
+git commit -m "Initial commit with secure environment setup"
+git branch -M main
+git remote add origin https://github.com/Blessman-Newton/stope-prediction.git
+git push -u origin main
